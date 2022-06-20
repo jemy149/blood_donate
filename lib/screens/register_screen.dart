@@ -1,12 +1,11 @@
 import 'package:blood_donation/constants/app_constants.dart';
 import 'package:blood_donation/custom_widgets/default_form_field.dart';
-import 'package:blood_donation/custom_widgets/default_outlined_gender_selector.dart';
 import 'package:blood_donation/custom_widgets/default_text.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class RegisterScreen extends StatefulWidget {
-  RegisterScreen({Key? key}) : super(key: key);
+  const RegisterScreen({Key? key}) : super(key: key);
+
 
   @override
   State<RegisterScreen> createState() => _RegisterScreenState();
