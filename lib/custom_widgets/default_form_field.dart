@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class CustomFormField extends StatelessWidget {
+class DefaultFormField extends StatelessWidget {
   final String hintText;
   final TextEditingController controller;
   final TextInputType keyboardType;
 
-  const CustomFormField({
+  const DefaultFormField({
     Key? key,
     required this.hintText,
     required this.controller,
@@ -14,14 +14,11 @@ class CustomFormField extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsetsDirectional.only(top: 10.0),
-      child: TextFormField(
-        controller: controller,
-        keyboardType: keyboardType,
-        decoration: InputDecoration(
-          hintText: hintText,
-        ),
+    return TextFormField(
+      controller: controller,
+      keyboardType: keyboardType,
+      decoration: InputDecoration(
+        hintText: hintText,
       ),
     );
   }

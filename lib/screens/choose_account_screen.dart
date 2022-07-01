@@ -68,7 +68,7 @@ class ChooseAccountScreen extends StatelessWidget {
                   ],
                 ),
                 CustomChooseAccountView(buttonText: 'Person',image: 'assets/person pic.png',onTap: (){
-                  Navigator.push(context,MaterialPageRoute(builder: (context) =>  RegisterScreen(),));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) =>  const RegisterScreen(),));
                 },),
                 CustomChooseAccountView(buttonText: 'Person',image: 'assets/Hospital pic.png',onTap: (){},),
 
