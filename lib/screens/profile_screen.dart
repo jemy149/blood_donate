@@ -46,6 +46,7 @@ class ProfileScreen extends StatelessWidget {
                                 TextSpan(children: <InlineSpan>[
                                   TextSpan(
                                     text: 'P',
+
                                     style: TextStyle(
                                       fontSize: 20,
                                       fontWeight: FontWeight.bold,
